@@ -1,0 +1,93 @@
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lora|Oxygen);*/
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  margin-top: 80px;
+  text-align: center;
+  background-color: #815fc0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.twitchSearchApp {
+  width: 500px
+}
+
+.well {
+  width: 60%;
+}
+
+/* Search Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.input-group, .waiting {
+  width: 500px;
+  margin-left: -15px;
+}
+
+/* Streamer List Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.list-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.streamers {
+  text-align: left;
+}
+
+.streamers:hover {
+  border-left: 5px solid purple;
+}
+
+.streamerName {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.numOfViewers {
+  padding-left: 10px;
+}
+
+.fa-user {
+  color: red;
+}
+
+.streamTitle {
+  margin-bottom: 0px;
+}
+
+.streamerLogo {
+  width: 75px;
+  height: 75px;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  background-color: #673AB7;
+  height: 50px;
+  color: white;
+}
+
+footer p {
+  margin-top: 20px;
+  padding-top: 15px;
+}
